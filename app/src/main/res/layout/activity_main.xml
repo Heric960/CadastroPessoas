@@ -57,6 +57,7 @@
             android:text="Nome:"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:layout_marginEnd="8dp" />
 
         <EditText
@@ -82,6 +83,7 @@
             android:text="Idade:"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:layout_marginEnd="8dp" />
 
         <EditText
@@ -107,6 +109,7 @@
             android:text="Endereço:"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:layout_marginEnd="8dp" />
 
         <EditText
@@ -124,7 +127,7 @@
         android:layout_height="70dp"
         android:layout_below="@id/address"
         android:layout_marginTop="16dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/holo_orange_dark"
         android:paddingVertical="12dp"
         android:text="Salvar"
         android:textColor="@android:color/white"
